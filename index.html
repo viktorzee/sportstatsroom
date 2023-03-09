@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportStatsRoom</title>
+    <!-- Load Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <!-- Load Swiper JS -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="bg-gray-800">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <!-- Logo -->
+        <div class="absolute inset-y-0 left-0 flex items-center">
+          <a href="#" class="flex-shrink-0 text-white font-bold text-lg">SportStatsRoom</a>
+        </div>
+        <!-- Links -->
+        <div class="absolute inset-y-0 right-0 flex items-center">
+          <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+          <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sports</a>
+          <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- Hero section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://via.placeholder.com/800x400/7F9CF5/FFFFFF" alt="Basketball">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://via.placeholder.com/800x400/34D399/FFFFFF" alt="Football">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://via.placeholder.com/800x400/EF4444/FFFFFF" alt="Tennis">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./imgs/photo-baseball.jpg" alt="Baseball">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./imgs/photo-golf.jpg" alt="Golf">
+                </div>
+                </div>
+                <!-- Add pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </section>
+            <!-- Features section -->
+        <section class="py-16 w-screen bg-gray-100">
+            <div class="container mx-auto px-4">
+                <div class="mb-8">
+                <h2 class="text-3xl font-bold">Our Features</h2>
+                <p class="text-gray-600">Here are some of the features that make SportStatsRoom stand out from the competition.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <div class="flex items-center mb-4">
+                    <span class="text-blue-500 text-2xl mr-2">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </span>
+                    <h3 class="text-lg font-bold">Real-Time Stats</h3>
+                    </div>
+                    <p class="text-gray-600">We provide real-time stats on all of your favorite sports, so you never miss a beat.</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <div class="flex items-center mb-4">
+                    <span class="text-blue-500 text-2xl mr-2">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 20h9"></path>
+                        <path d="M19 13l3 3l-3 3"></path>
+                        <path d="M5 12h9"></path>
+                        <path d="M5 7l3 3l-3 3"></path>
+                        </svg>
+                    </span>
+                    <h3 class="text-lg font-bold">Advanced Analytics</h3>
+                    </div>
+                    <p class="text-gray-600">Our advanced analytics help you gain insights into your favorite sports like never before.</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <div class="flex items-center mb-4">
+                    <span class="text-blue-500 text-2xl mr-2">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 20h9"></path>
+                        <path d="M19 13l3 3l-3 3"></path>
+                        <path d="M5 12h9"></path>
+                        <path d="M5 7l3 3l-3 3"></path>
+                        </svg>
+                    </span>
+                    <h3 class="text-lg font-bold">Customizable Dashboard</h3>
+                    </div>
+                    <p class="text-gray-600">Our customizable dashboard lets you see the stats that matter most to you.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to action section -->
+        <div class="py-16 w-screen bg-blue-500">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-white">Get started today</h2>
+                <p class="text-white">Sign up now and start getting real-time stats on your favorite sports.</p>
+                </div>
+                <div class="text-center">
+                <a href="#" class="bg-white text-blue-500 font-bold py-2 px-6 rounded-full">Sign up now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer section -->
+        <footer class="py-6 w-screen bg-gray-800 text-white">
+        <div class="container mx-auto px-4 flex flex-wrap justify-between items-center">
+            <div class="w-full md:w-auto text-center md:text-left mb-2 md:mb-0">
+            <span class="font-bold">&copy; 2023 SportStatsRoom</span> All rights reserved.
+            </div>
+            <div class="flex items-center">
+            <a href="#" class="mr-4"><i class="fab fa-twitter text-lg"></i></a>
+            <a href="#" class="mr-4"><i class="fab fa-facebook-f text-lg"></i></a>
+            <a href="#"><i class="fab fa-instagram text-lg"></i></a>
+            </div>
+        </div>
+        </footer>
+    </div>  
+
+    <script type="module">
+        // Initialize Swiper
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            },
+            autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+  });
+
+    </script>
+</body>
